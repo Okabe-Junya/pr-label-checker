@@ -1,23 +1,31 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'GitHub PR Label Checker'
+description: 'Check if a PR has the required labels'
+author: 'Junya Okabe'
 
 # Add your action's branding here. This will appear on the GitHub Marketplace.
 branding:
-  icon: 'heart'
+  icon: 'alert-triangle'
   color: 'red'
 
 # Define your inputs here.
 inputs:
-  milliseconds:
-    description: 'Your input description here'
-    required: true
-    default: '1000'
+  repo-token:
+    description: 'The token to use for authentication'
+    required: false
+    default: ${{ github.token }}
+  any:
+    description: 'PR must have any of these labels to pass'
+    required: false
+    default: ''
+  all:
+    description: 'PR must have all of these labels to pass'
+    required: false
+    default: ''
 
 # Define your outputs here.
 outputs:
-  time:
-    description: 'Your output description here'
+  result:
+    description: 'The result of the action'
 
 runs:
   using: node20
