@@ -6,7 +6,8 @@
 [![CodeQL](https://github.com/Okabe-Junya/pr-label-checker/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Okabe-Junya/pr-label-checker/actions/workflows/codeql-analysis.yml)
 [![Coverage](./badges/coverage.svg)](./badges/coverage.svg)
 
-GitHub PR Label Checker is a GitHub Action that checks if the PR has the specified label.
+GitHub PR Label Checker is a GitHub Action that checks if the PR has the
+specified label.
 
 ## Getting Started
 
@@ -18,4 +19,5 @@ WIP
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
+for details.
