@@ -1,22 +1,16 @@
 {
-  "name": "typescript-action",
-  "description": "GitHub Actions TypeScript template",
+  "name": "pr-label-check",
+  "description": "A GitHub Action to check if a PR has a specific label",
   "version": "0.0.0",
-  "author": "",
-  "private": true,
-  "homepage": "https://github.com/actions/typescript-action",
+  "author": "Junya Okabe",
+  "homepage": "https://github.com/Okabe-Junya/pr-label-checker",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+github.com:Okabe-Junya/pr-label-checker.git"
   },
   "bugs": {
-    "url": "https://github.com/actions/typescript-action/issues"
+    "url": "https://github.com/Okabe-Junya/pr-label-checker/issues"
   },
-  "keywords": [
-    "actions",
-    "node",
-    "setup"
-  ],
   "exports": {
     ".": "./dist/index.js"
   },
